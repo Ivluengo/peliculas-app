@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f4f4f4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.movieGrid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
+
+
+.movieItem {
+    position: relative;
+    
+}
+.nota {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
 }
